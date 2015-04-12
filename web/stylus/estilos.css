@@ -185,13 +185,40 @@ body {
 figure {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 .container {
   padding: 1.4rem;
   font-size: 0em;
   text-align: center;
 }
+.button-menu {
+  position: absolute;
+  top: 50%;
+  left: 0.5em;
+  margin-top: -10px;
+}
+.border-bottom {
+  border-bottom: solid 1px #818181;
+}
+.relative {
+  position: relative;
+}
 .name {
   color: #333;
+}
+.header {
+  height: 3.5em;
+}
+.header .title {
+  font-size: 1.1em;
+  text-align: center;
+  margin: 0;
+  line-height: 3.5em;
+}
+.menu {
+  display: none;
 }
 .author {
   color: #818181;
@@ -202,7 +229,11 @@ figure {
   font-size: 1rem;
   margin-right: 1em;
   margin-bottom: 1em;
+  text-align: left;
 }
 .song:nth-child(even) {
   margin-right: 0;
+}
+.song p {
+  margin: 0.5em 0;
 }
